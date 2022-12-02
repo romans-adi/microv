@@ -5,24 +5,7 @@ body {
   background-color: #434957;
 }
 
-a {
- color: #eee;
-}
-
-a:hover {
-  color: #fff;
-}
-
-a:visited {
-  color: rgb(224, 222, 222);
-}
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.container-fluid {
   margin: 2% 0.5%;
   background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
   border-radius: 0.4%;
@@ -30,17 +13,16 @@ a:visited {
 
 #tribute-info {
   display: grid;
-  width: 50%;
   text-align: justify;
 }
 
-#tribute-info ul > li {
+#tribute-info ul>li {
   margin: 10px 0;
   padding: 1% 2%;
   margin-right: 2%;
 }
 
-blockquote > p {
+blockquote>p {
   text-align: justify;
 }
 
@@ -56,10 +38,6 @@ blockquote > p {
   border: 1px solid #eee;
 }
 
-#image {
-  max-width: 100%;
-  }
-
 #img-caption {
   font-size: 1rem;
   margin: 1%;
@@ -69,7 +47,8 @@ blockquote > p {
   text-align: center;
 }
 
-.info, #title {
+.info,
+#title {
   text-align: center;
 }
 
@@ -77,15 +56,18 @@ blockquote > p {
   #tribute-info {
     width: 100%;
   }
+
   .info {
     padding: 0% 4%;
     text-align: justify;
   }
+
   #tribute-info ul {
-margin: 0;
-padding:0% 1%;
+    margin: 0;
+    padding: 0% 1%;
   }
-  #tribute-info ul > li {
+
+  #tribute-info ul>li {
     list-style-type: none;
   }
 }

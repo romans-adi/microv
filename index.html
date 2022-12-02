@@ -7,23 +7,24 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="style.css">
   <title>Dr. Norman Borlaug
   </title>
 </head>
 <body>
   <main id="main">
-    <div class="container">
-    <h1 id="title">Dr. Norman Borlaug</h1>
+    <div class="container-fluid mx-2 my-6 p-6 flex flex-wrap flex-col justify-center items-center">
+    <h1 id="title" class="text-5xl py-4">Dr. Norman Borlaug</h1>
     <p>The man who saved a billion lives</p>
     <div id="img-div">
-      <img style="display:block" id="image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg" width="100%" height="auto" />
+      <img class="block" id="image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg" width="100%" height="auto" />
       <figcaption id="img-caption">
         Dr. Norman Borlaug, third from the left, trains biologists in Mexico
         on how to increase wheat yields - part of his life-long war on hunger.
       </figcaption>
     </div>
-    <section id="tribute-info">
+    <section id="tribute-info" class="text-center w-3/6">
       <h3 id="headline">Here's a time line of Dr. Borlaug's life:</h3>
       <ul>
 <li><b>1914</b> - Born in Cresco, Iowa</li>
@@ -54,7 +55,7 @@
         <cite>-- Indian Prime Minister Manmohan Singh</cite>
       </blockquote>
     </section>
-    <h3 class="info"><b>If you have time, you should read more about this incredible human being on his <a id="tribute-link" href="https://en.wikipedia.org/wiki/Norman_Borlaug" target="_blank">Wikipedia entry</a></b></h3>
+    <h3 class="info my-4"><b>If you have time, you should read more about this incredible human being on his <a id="tribute-link" href="https://en.wikipedia.org/wiki/Norman_Borlaug" target="_blank"><span class="text-white hover:red-200 hover:underline hover:underline-offset-4 visited:text-purple-300">Wikipedia entry</span></a></b></h3>
   </div>
   </main>
 </body>
